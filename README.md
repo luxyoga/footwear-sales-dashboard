@@ -5,6 +5,10 @@
 
 ---
 
+![Footwear Sales Dashboard Preview](dashboard_preview.png)
+
+---
+
 ## Overview
 This project simulates a **decade of sales data (2015–2025)** for a global footwear retailer operating across the **UK, Europe, and Canada**.  
 It demonstrates advanced data preparation, transformation, and visualization skills — from synthetic data generation to interactive KPI dashboards.  
