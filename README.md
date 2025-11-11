@@ -57,7 +57,7 @@ The goal was to create a **realistic business intelligence solution** that enabl
 ```text
 Footwear-Sales-Dashboard/
 ├── data/
-│   ├── Orders2.csv
+│   ├── Orders_cleaned.csv.zip
 │   ├── Customers2.csv
 │   ├── Products2.csv
 │   └── Locations2.csv
