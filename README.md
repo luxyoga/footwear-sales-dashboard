@@ -18,9 +18,9 @@ The goal was to create a **realistic business intelligence solution** that enabl
 - Over **200,000 transactions** and **30,000 unique customers**  
 - Dynamic filtering by **brand, colorway, style, year, and country**  
 - Automated KPI calculations for:
-  - 📈 Year-over-year **Sales, Profit, and Quantity**
-  - 🏷️ **Discounted vs Full-Price** product performance
-  - 👟 Category and Brand breakdowns
+  - Year-over-year **Sales, Profit, and Quantity**
+  - **Discounted vs Full-Price** product performance
+  - Category and Brand breakdowns
 - Interactive **trend analysis** visualizing performance by week, month, and year  
 
 ---
