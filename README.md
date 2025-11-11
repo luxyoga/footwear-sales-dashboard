@@ -1,59 +1,92 @@
-Sales Dashboard | Requirements
-Dashboard Purpose
+# Footwear Sales Analytics Dashboard (2015–2025)
 
-The purpose of sales dashboard is to present an overview of the sales metrics and trends in order to analyze year-over-year sales performance and understand sales trends.
-Key Requirements
-KPI Overview
+**Live Tableau Dashboard:**  
+🔗 [View on Tableau Public →](https://public.tableau.com/app/profile/lux.yogasegaran/viz/FootwearSalesDashboard_17628641426450/SalesDashboard)
 
-Display a summary of total sales, profits and quantity for the current year and the previous year.
-Sales Trends
+---
 
-– Present the data for each KPI on a monthly basis for both the current year and the previous year.
+## Overview
+This project simulates a **decade of sales data (2015–2025)** for a global footwear retailer operating across the **UK, Europe, and Canada**.  
+It demonstrates advanced data preparation, transformation, and visualization skills — from synthetic data generation to interactive KPI dashboards.  
 
-– Identify months with highest and lowest sales and make them easy to recognize.
-Product Subcategory Comparison
+The goal was to create a **realistic business intelligence solution** that enables regional managers to track trends in **sales, profit, and quantity sold** by **year, brand, style, and location.**
 
-– Compare sales performance by different product subcategories for the current year and the previous year.
+---
 
-– Include a comparison of sales with profit.
-Weekly Trends for Sales & Profit
+## Key Features
+- **10 years of global sales data** across 27 retail locations  
+- Over **200,000 transactions** and **30,000 unique customers**  
+- Dynamic filtering by **brand, colorway, style, year, and country**  
+- Automated KPI calculations for:
+  - 📈 Year-over-year **Sales, Profit, and Quantity**
+  - 🏷️ **Discounted vs Full-Price** product performance
+  - 👟 Category and Brand breakdowns
+- Interactive **trend analysis** visualizing performance by week, month, and year  
 
-– Present weekly sales and profit data for the current year.
+---
 
-– Display the average weekly values.
+## Skills & Tools Demonstrated
+**Data Engineering / Cleaning**
+- Python (pandas, numpy) for synthetic dataset creation  
+- MySQL for data validation, schema management, and type correction  
+- UTF-8 data encoding and normalization  
 
-– Highlight weeks that are above and below the average to draw attention to sales & profit performance.
+**Data Visualization**
+- Tableau (Public Edition)
+  - Dashboard design (KPI cards, trend lines, parameter filters)
+  - Relationships across multiple data sources (Orders, Customers, Locations, Products)
+  - Consistent theme design and filter UX  
 
-‍
-Customer Dashboard | Requirements
-Dashboard Purpose
+**Data Modeling**
+- Relational schema design for retail transactions  
+- Joined datasets across Orders, Products, Customers, and Locations  
+- Year-over-year and week-over-week calculated fields  
 
-The customer dashboard aims to provide an overview of customer data, trends and behaviors. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
-Key Requirements
-KPI Overview
+**Other**
+- GitHub for version control & documentation  
+- CSV data versioning and clean pipeline handoff  
 
-Display a summary of total number of customers , total sales per customer and total number of orders for the current year and the previous year.
-Customer Trends
+---
 
-– Present the data for each KPI on a monthly basis for both the current year and the previous year.
+## Project Structure
+Footwear-Sales-Dashboard/
+├── data/
+│   ├── Orders_expanded_2015_2025.csv
+│   ├── Customers_expanded_2015_2025.csv
+│   ├── Products_expanded_2015_2025.csv
+│   ├── Locations2.csv
+├── scripts/
+│   ├── data_generation_notebook.ipynb
+│   ├── mysql_schema_setup.sql
+│   ├── data_cleaning.py
+├── visuals/
+│   ├── dashboard_preview.png
+│   ├── kpi_trends_example.png
+├── README.md
+└── LICENSE
 
-– Identify months with highest and lowest sales and make them easy to recognize.
-Customer Distribution by Number of Orders
+---
 
-Represent the distribution of customers based on the number of orders they have placed to provide insights into customer behavior, loyalty and engagement.
-Top 10 Customers By Profit
+## Dashboard Highlights
+| Metric | Description |
+|--------|--------------|
+| **Total Sales / Profit / Quantity** | KPI cards with YoY comparison and trend lines |
+| **Sales by Style** | Highlights customer buying preferences |
+| **Sales by Brand** | Compares major footwear brands (Nike, Adidas, ASICS, etc.) |
+| **Sales & Profit Trends** | Week-by-week performance with dynamic filters |
+| **Interactive Filters** | Brand, Product Model, Footwear Type, Colorway, Country |
 
-– Present the top 10 customers who have generated the highest profits for the company.
+---
 
-– Show additional information like rank, number of orders, current sales, current profit and the last order date.
-Design & Interactivity Requirements
-Dashboard Dynamic
+## Next Steps
+- Add product returns / refunds dataset for profit margin tracking  
+- Extend model to include **forecasting** (2026–2027) with Python or Tableau  
+- Publish an automated ETL pipeline in Airflow or dbt  
 
-– The Dashboard should allow users to check historical data by offering them the flexibility to select any desired year.
+---
 
-– Provide users with the ability to navigate between the dashboards easily.
-
-– Make the charts and graphs interactive, enabling users to filter data using the charts.
-Data Filters
-
-Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
+## Author
+**Lux Yogasegaran**  
+Data Analyst | UX Designer | BI Developer  
+📍 Copenhagen, Denmark  
+🔗 [LinkedIn](https://www.linkedin.com/in/luxyogasegaran/) | [GitHub](https://github.com/luxyoga)
