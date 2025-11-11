@@ -5,7 +5,7 @@
 
 ---
 
-![Footwear Sales Dashboard Preview](dashboard_preview.png)
+![Footwear Sales Dashboard Preview](visuals/dashboard_preview.png)
 
 ---
 
