@@ -55,17 +55,16 @@ The goal was to create a **realistic business intelligence solution** that enabl
 ## Project Structure
 Footwear-Sales-Dashboard/
 ├── data/
-│   ├── Orders_expanded_2015_2025.csv
-│   ├── Customers_expanded_2015_2025.csv
-│   ├── Products_expanded_2015_2025.csv
+│   ├── Orders2.csv
+│   ├── Customers2.csv
+│   ├── Products2.csv
 │   ├── Locations2.csv
 ├── scripts/
-│   ├── data_generation_notebook.ipynb
-│   ├── mysql_schema_setup.sql
-│   ├── data_cleaning.py
+│   ├── Order Cleaning Queries.sql
+├── tableau/
+│   ├── Footwear Sales Dashboard.twbx
 ├── visuals/
 │   ├── dashboard_preview.png
-│   ├── kpi_trends_example.png
 ├── README.md
 └── LICENSE
 
