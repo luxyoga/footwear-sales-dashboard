@@ -65,8 +65,7 @@ Footwear-Sales-Dashboard/
 │   ├── Footwear Sales Dashboard.twbx
 ├── visuals/
 │   ├── dashboard_preview.png
-├── README.md
-└── LICENSE
+└── README.md
 
 ---
 
