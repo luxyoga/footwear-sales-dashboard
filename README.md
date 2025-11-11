@@ -53,19 +53,22 @@ The goal was to create a **realistic business intelligence solution** that enabl
 ---
 
 ## Project Structure
+
+```text
 Footwear-Sales-Dashboard/
-  data/
-    Orders2.csv
-    Customers2.csv
-    Products2.csv
-    Locations2.csv
-  scripts/
-    Order Cleaning Queries.sql
-  tableau/
-    Footwear Sales Dashboard.twbx
-  visuals/
-    dashboard_preview.png
-  README.md
+├── data/
+│   ├── Orders2.csv
+│   ├── Customers2.csv
+│   ├── Products2.csv
+│   └── Locations2.csv
+├── scripts/
+│   └── Order Cleaning Queries.sql
+├── tableau/
+│   └── Footwear Sales Dashboard.twbx
+├── visuals/
+│   └── dashboard_preview.png
+└── README.md
+```
 
 ---
 
