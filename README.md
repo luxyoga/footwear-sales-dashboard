@@ -15,7 +15,7 @@ So the business grew 13% and its unit economics didn't move at all. No pricing p
 
 ![Footwear Sales Dashboard](visuals/dashboard_preview.png)
 
-## What I'd recommend
+## What I'd Recommend
 
 **Test price, because a year of 13% volume growth found no ceiling.**<br>
 If demand absorbed 13.41% more units without any upward pressure on price, price isn't currently what's constraining growth. Running and Sneakers are the two largest style categories and both grew year over year, which makes them the lowest-risk place to test a modest increase. A 2% lift on those two alone would drop straight to margin, since nothing in the data suggests volume is price-sensitive at current levels.
@@ -59,7 +59,7 @@ Sales average $111K per week and profit averages $38K per week across the year, 
 - 2015 to 2025, covering the UK, Europe and Canada
 - Eight style categories and thirteen brands
 
-## Dashboard features
+## Dashboard Features
 
 | View | What it answers |
 |---|---|
@@ -69,7 +69,7 @@ Sales average $111K per week and profit averages $38K per week across the year, 
 | Sales and profit trends | Week-by-week performance against the annual average |
 | Interactive filters | Brand, product model, footwear type, colorway, country |
 
-## How I built it
+## How I Built It
 
 I generated the transaction data in Python with pandas and numpy against a schema modelled on real footwear retail reporting, then used MySQL for schema management, validation and type correction. The cleaned data is modelled into a relational structure joining orders, products, customers and locations, with year-over-year and week-over-week calculated fields on top. The Tableau dashboard sits on that model.
 
@@ -89,13 +89,13 @@ Footwear-Sales-Dashboard/
 └── README.md
 ```
 
-## Tech stack
+## Tech Stack
 
 - **Python** (pandas, numpy) for dataset generation
 - **MySQL** for cleaning, schema management, validation and type correction
 - **Tableau Public** for dashboard design and delivery
 
-## What I'd do next
+## What I'd Do Next
 
 - Add profit by brand to the dashboard, since merchandising decisions turn on margin rather than revenue and the current view only shows the latter
 - Add a returns and refunds dataset so margin reflects net rather than gross
