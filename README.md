@@ -2,7 +2,8 @@
 
 [View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/lux)
 
-**About the data.** This dashboard is modelled on retail sales data I worked with at JD Sports / size?, where I built reporting across 100+ stores in 12 markets covering sell-through, margin and store-level KPIs. The figures shown here are generated rather than actual company financials, for confidentiality reasons. The schema, category structure, brand mix and metric definitions mirror how a footwear retailer actually reports, so the analysis and the decisions it points to are representative of the real thing.
+**About the data.**<br>
+This dashboard is modelled on retail sales data I worked with at JD Sports / size?, where I built reporting across 100+ stores in 12 markets covering sell-through, margin and store-level KPIs. The figures shown here are generated rather than actual company financials, for confidentiality reasons. The schema, category structure, brand mix and metric definitions mirror how a footwear retailer actually reports, so the analysis and the decisions it points to are representative of the real thing.
 
 ## The Findings
 
