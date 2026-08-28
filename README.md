@@ -18,12 +18,15 @@ So the business grew 13% and its unit economics didn't move at all. No pricing p
 ## What I'd Recommend
 
 **Test price, because a year of 13% volume growth found no ceiling.**<br>
+
 If demand absorbed 13.41% more units without any upward pressure on price, price isn't currently what's constraining growth. Running and Sneakers are the two largest style categories and both grew year over year, which makes them the lowest-risk place to test a modest increase. A 2% lift on those two alone would drop straight to margin, since nothing in the data suggests volume is price-sensitive at current levels.
 
 **Question whether thirteen brands are earning their place.**<br>
+
 Adidas and Nike lead clearly. Below them the portfolio is remarkably flat, with Salomon, Mizuno, Converse, Saucony, On and Hoka all clustered within a narrow band of each other. Six brands delivering near-identical revenue means six supplier relationships, six inventory positions and six sets of working capital tied up for undifferentiated return. I'd look at consolidating the tail and reallocating that shelf space and buying budget toward the categories that are actually growing.
 
 **Don't read the first and last weeks of the trend chart as performance.**<br>
+
 The weekly sales and profit series drops sharply at both ends, well below the $111K weekly sales average and $38K weekly profit average that hold across the rest of the year. Those are partial reporting periods, not a collapse. Any year-over-year comparison that includes them will understate the real trend, which is exactly the kind of artifact that becomes a wrong decision if nobody checks the period boundaries.
 
 ## The Evidence
