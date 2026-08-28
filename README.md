@@ -43,15 +43,15 @@ The weekly sales and profit series drops sharply at both ends, well below the $1
 
 The last two rows are the ones that matter. They're derived from the three headline figures rather than shown on the dashboard directly, and they're what turns "we grew 13%" into "we grew 13% and learned nothing about our pricing."
 
-### Category performance
+### Category Performance
 
 All eight style categories grew year over year. Running and Sneakers are the largest by revenue, followed by Lifestyle and Retro. Skate and Trail are the smallest and grew least. Nothing in the mix shifted enough to move blended price, which is consistent with the flat average selling price.
 
-### Brand concentration
+### Brand Concentration
 
 Adidas and Nike sit clearly ahead of the field. New Balance and ASICS form a second tier. From Vans downward through Reebok, Puma, Salomon, Mizuno, Converse, Saucony, On and Hoka, the spread narrows considerably and the bottom six are close to indistinguishable in revenue terms.
 
-### Weekly rhythm
+### Weekly Rhythm
 
 Sales average $111K per week and profit averages $38K per week across the year, tracking each other closely. That consistency is another way of seeing the flat-margin story: profit isn't decoupling from revenue in either direction.
 
